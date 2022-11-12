@@ -1,0 +1,6 @@
+resource_group_name     = "apim-dev-rd"
+resource_group_location = "east us"
+app_service_plan_name   = "alex-plan"
+app_service_name        = "alex-dev"
+app_service_plan_sku    = "S1"
+app_service_os_type     = "Linux"

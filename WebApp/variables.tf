@@ -28,7 +28,24 @@ variable "app_service_os_type" {
   description = "os_type"
 }
 
-variable "sql_server_name" {
+variable "vnet_name" {
+  type        = string
+  description = "vnet_name"
+}
+
+variable "vnet_address_space" {
+  type        = string
+  description = "vnet_address_space"
+}
+
+variable "subnet_name" {
+  type        = string
+  description = "subnet_name"
+}
+
+
+
+/*variable "sql_server_name" {
   type        = string
   description = "SQL Server instance name in Azure"
 }
@@ -46,4 +63,4 @@ variable "sql_admin_login" {
 variable "sql_admin_password" {
   type        = string
   description = "SQL Server password name in Azure"
-}
+}*/

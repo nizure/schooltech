@@ -4,3 +4,7 @@ app_service_plan_name   = "alex-plan"
 app_service_name        = "alex-prod"
 app_service_plan_sku    = "P1v2"
 app_service_os_type     = "Linux"
+vnet_name               = "alex-prod-vnet"
+subnet_name             = "alex-prod-subnet"
+vnet_address_space      = "10.0.0.0/16"
+
